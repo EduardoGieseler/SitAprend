@@ -1,0 +1,378 @@
+<html>
+	<head>
+		<title>Conta | Inside NFL</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../CSS/geral.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/cadastro.css">
+		
+		<script>
+		<?php
+			if(isset($_GET['cadastrado'])){
+				$frase = "Seu cadastro foi realizado com sucesso!";
+			}else if(isset($_GET['logado'])){
+				$frase = "Logado com sucesso!";
+			}
+		?>
+		
+		var frase = "<?php echo $frase; ?>";
+		
+		alert(frase);
+		</script>
+		
+	</head>
+	<body>
+       
+		<div id="div_times">
+            
+			<div id="logos_liga">
+				<div id="logo_afc">
+					<img src="../Imagens/Logos Times/AFC/AFC.png" id="logo_conf_afc">
+				</div>
+				<div id="logo_nfc">
+					<img src="../Imagens/Logos Times/NFC/NFC.png" id="logo_conf_nfc">
+				</div>
+			</div>
+            
+			<div id="ligaAFC">
+				<div id="AFC_Leste">
+					<div class="nome_lugar_conf">
+					   <center><img src="../Imagens/Logos Times/Imagens/Leste.png" class="Lugar"></center>
+					</div>
+					<div class="imagem_l">
+                        <a href="http://www.buffalobills.com/?icampaign=nflcom-header-clublogos-BUF" target="parent"><center><img src="../Imagens/Logos Times/AFC/AFC LESTE/BuffaloBills.png" class="imagens_logos_ret"></center></a>
+					</div>
+					<div class="imagem_l">
+						<a href="http://www.patriots.com/?icampaign=nflcom-header-clublogos-NE" target="parent"><center><img src="../Imagens/Logos Times/AFC/AFC LESTE/NewEnglandPatriots.png" class="imagens_logos_ret"></center></a>
+					</div>
+					<div class="imagem_l">
+						<a href="http://www.miamidolphins.com/?icampaign=nflcom-header-clublogos-MIA" target="parent"><center><img src="../Imagens/Logos Times/AFC/AFC LESTE/MiamiDolphins.png" class="imagens_logos_quad"></center></a>
+					</div>
+					<div class="imagem_l">
+						<a href="http://www.newyorkjets.com/?icampaign=nflcom-header-clublogos-NYJ" target="parent"><center><img src="../Imagens/Logos Times/AFC/AFC LESTE/NewYorkJets.png" class="imagens_logos_quad"></center></a>
+					</div>
+				</div>
+				<div id="AFC_Sul">
+					<div class="nome_lugar_conf">
+						<center><img src="../Imagens/Logos Times/Imagens/Sul.png" class="Lugar"></center>
+					</div>
+					<div class="imagem_s">
+					       <a href="http://www.houstontexans.com/?icampaign=nflcom-header-clublogos-HOU" target="parent"><center><img src="../Imagens/Logos Times/AFC/AFC SUL/HoustonTexans.png" class="imagens_logos_quad"></center></a>
+					</div>
+					<div class="imagem_s">
+					       <a href="http://www.titansonline.com/?icampaign=nflcom-header-clublogos-TEN" target="parent"><center><img src="../Imagens/Logos Times/AFC/AFC SUL/TennesseeTitans.png" class="imagens_logos_ret"></center></a>
+					</div>
+					<div class="imagem_s">
+					       <a href="http://www.jaguars.com/?icampaign=nflcom-header-clublogos-JAX" target="parent"><center><img src="../Imagens/Logos Times/AFC/AFC SUL/JacksonvilleJaguars.png" class="imagens_logos_ret"></center></a>
+					</div>
+					<div class="imagem_s">
+					       <a href="http://www.colts.com/?icampaign=nflcom-header-clublogos-IND" target="parent"><center><img src="../Imagens/Logos Times/AFC/AFC SUL/IndianapolisColts.png" class="imagens_logos_quad"></center></a>
+					</div>
+				</div>
+				<div id="AFC_Oeste">
+					<div class="nome_lugar_conf">
+                        <center><img src="../Imagens/Logos Times/Imagens/Oeste.png" class="Lugar"></center>					
+                    </div>
+					<div class="imagem_o">
+					   <a href="http://www.denverbroncos.com/?icampaign=nflcom-header-clublogos-DEN" target="parent"><center><img src="../Imagens/Logos Times/AFC/AFC OESTE/DenverBroncos.png" class="imagens_logos_ret"></center></a>
+					</div>
+					<div class="imagem_o">
+					       <a href="http://www.raiders.com/?icampaign=nflcom-header-clublogos-OAK" target="parent"><center><img src="../Imagens/Logos Times/AFC/AFC OESTE/OaklandRaiders.png" class="imagens_logos_quad"></center></a>
+					</div>
+					<div class="imagem_o">
+					       <a href="http://www.chiefs.com/?icampaign=nflcom-header-clublogos-KC" target="parent"><center><img src="../Imagens/Logos Times/AFC/AFC OESTE/KansasCityChiefs.png" class="imagens_logos_quad"></center></a>
+					</div>
+					<div class="imagem_o">
+					       <a href="http://www.chargers.com/?icampaign=nflcom-header-clublogos-SD" target="parent"><center><img src="../Imagens/Logos Times/AFC/AFC OESTE/SanDiegoChargers.png" class="imagens_logos_ret"></center></a>
+					</div>
+				</div>
+				<div id="AFC_Norte">
+					<div class="nome_lugar_conf">
+                        <center><img src="../Imagens/Logos Times/Imagens/Norte.png" class="Lugar"></center>
+					</div>
+					<div class="imagem_n">
+					       <a href="http://www.baltimoreravens.com/?icampaign=nflcom-header-clublogos-BAL" target="parent"><center><img src="../Imagens/Logos Times/AFC/AFC NORTE/BaltimoreRavens.png" class="imagens_logos_ret"></center></a>
+					</div>
+					<div class="imagem_n">
+					       <a href="http://www.bengals.com/?icampaign=nflcom-header-clublogos-CIN" target="parent"><center><img src="../Imagens/Logos Times/AFC/AFC NORTE/CincinnatiBengals.png" class="imagens_logos_quad"></center></a>
+					</div>
+					<div class="imagem_n">
+					       <a href="http://www.clevelandbrowns.com/?icampaign=nflcom-header-clublogos-CLE" target="parent">
+                        <center><img src="../Imagens/Logos Times/AFC/AFC NORTE/ClevelandBrowns.png" class="imagens_logos_quad"></center></a>
+					</div>
+					<div class="imagem_n">
+					      <a href="http://www.steelers.com/?icampaign=nflcom-header-clublogos-PIT" target="parent">
+                           <center><img src="../Imagens/Logos Times/AFC/AFC NORTE/PittsburghSteelers.png" class="imagens_logos_quad"></center>
+                        </a>
+					</div>
+</div> 
+				
+			</div>
+                        
+			<div id="ligaNFC">
+                <div id="NFC_Leste">
+					<div class="nome_lugar_conf">
+					   <center><img src="../Imagens/Logos Times/Imagens/Leste.png" class="Lugar"></center>
+					</div>
+					<div class="imagem_l">
+						<a href="http://www.giants.com/?icampaign=nflcom-header-clublogos-NYG" target="parent"><center><img src="../Imagens/Logos Times/NFC/NFC LESTE/NewYorkGiants.png" class="imagens_logos_quad"></center></a>
+					</div>
+					<div class="imagem_l">
+						<a href="http://www.dallascowboys.com/?icampaign=nflcom-header-clublogos-DAL" target="parent"><center><img src="../Imagens/Logos Times/NFC/NFC LESTE/DallasCowboys.png" class="imagens_logos_quad"></center></a>
+					</div>
+					<div class="imagem_l">
+						<a href="http://www.philadelphiaeagles.com/?icampaign=nflcom-header-clublogos-PHI" target="parent"><center><img src="../Imagens/Logos Times/NFC/NFC LESTE/PhiladelphiaEagles.png" class="imagens_logos_ret"></center></a>
+					</div>
+					<div class="imagem_l">
+						<a href="http://www.redskins.com/?icampaign=nflcom-header-clublogos-WAS" target="parent"><center><img src="../Imagens/Logos Times/NFC/NFC LESTE/WashingtonRedskins.png" class="imagens_logos_quad"></center></a>
+					</div>
+                </div>
+                <div id="NFC_Sul">
+					<div class="nome_lugar_conf">
+					   <center><img src="../Imagens/Logos Times/Imagens/Sul.png" class="Lugar"></center>
+					</div>
+					<div class="imagem_s">
+						<a href="http://www.atlantafalcons.com/?icampaign=nflcom-header-clublogos-ATL" target="parent"><center><img src="../Imagens/Logos Times/NFC/NFC SUL/AtlantaFalcons.png" class="imagens_logos_quad"></center></a>
+					</div>
+					<div class="imagem_s">
+						<a href="http://www.panthers.com/?icampaign=nflcom-header-clublogos-CAR" target="parent"><center><img src="../Imagens/Logos Times/NFC/NFC SUL/CarolinaPanthers.png" class="imagens_logos_ret"></center></a>
+					</div>
+					<div class="imagem_s">
+						<a href="http://www.neworleanssaints.com/?icampaign=nflcom-header-clublogos-NO" target="parent"><center><img src="../Imagens/Logos Times/NFC/NFC SUL/NewOrleansSaints.png" class="imagens_logos_quad"></center></a>
+					</div>
+					<div class="imagem_s">
+						<a href="http://www.buccaneers.com/?icampaign=nflcom-header-clublogos-TB" target="parent"><center><img src="../Imagens/Logos Times/NFC/NFC SUL/TampaBayBuccaneers.png" class="imagens_logos_ret"></center></a>
+					</div>
+                    </div>
+			    <div id="NFC_Oeste">
+					<div class="nome_lugar_conf">
+					   <center><img src="../Imagens/Logos Times/Imagens/Oeste.png" class="Lugar"></center>
+					</div>
+					<div class="imagem_o">	
+						<a href="http://www.49ers.com/?icampaign=nflcom-header-clublogos-SF" target="parent"><center><img src="../Imagens/Logos Times/NFC/NFC OESTE/SanFrancisco49ers.png" class="imagens_logos_ret"></center></a>
+					</div>
+					<div class="imagem_o">
+						<a href="http://www.therams.com/?icampaign=nflcom-header-clublogos-LA" target="parent"><center><img src="../Imagens/Logos Times/NFC/NFC OESTE/LosAngelesRams.png" class="imagens_logos_ret"></center></a>
+					</div>
+					<div class="imagem_o">
+						<a href="http://www.seahawks.com/?icampaign=nflcom-header-clublogos-SEA" target="parent"><center><img src="../Imagens/Logos Times/NFC/NFC OESTE/SeattleSeahawks.png" class="imagens_logos_ret"></center></a>
+					</div>
+					<div class="imagem_o">
+						<a href="http://www.azcardinals.com/?icampaign=nflcom-header-clublogos-ARI" target="parent"><center><img src="../Imagens/Logos Times/NFC/NFC OESTE/ArizonaCardinals.png" class="imagens_logos_ret"></center></a>
+					</div>
+</div>                      
+                <div id="NFC_Norte">
+					<div class="nome_lugar_conf">
+					   <center><img src="../Imagens/Logos Times/Imagens/Norte.png" class="Lugar"></center>
+					</div>
+					<div class="imagem_n">
+						<a href="http://www.packers.com/?icampaign=nflcom-header-clublogos-GB" target="parent"><center><img src="../Imagens/Logos Times/NFC/NFC NORTE/GreenBayPackers.png" class="imagens_logos_quad"></center></a>
+					</div>
+				    <div class="imagem_n">
+						<a href="http://www.vikings.com/?icampaign=nflcom-header-clublogos-MIN" target="parent"><center><img src="../Imagens/Logos Times/NFC/NFC NORTE/MinessotaVikings.png" class="imagens_logos_quad"></center></a>
+					</div>
+					<div class="imagem_n">
+						<a href="http://www.detroitlions.com/?icampaign=nflcom-header-clublogos-DET" target="parent"><center><img src="../Imagens/Logos Times/NFC/NFC NORTE/DetroitLions.png" class="imagens_logos_ret"></center></a>
+					</div>
+					<div class="imagem_n">
+						<a href="http://www.chicagobears.com/?icampaign=nflcom-header-clublogos-CHI" target="parent"><center><img src="../Imagens/Logos Times/NFC/NFC NORTE/ChicagoBears.png" class="imagens_logos_ret"></center></a>
+					</div>
+				</div>
+			</div>
+            
+		</div>
+        	
+		<div id="botao">
+		  <input type="submit" value="Ver Times▲" onclick="fecha()" id="botao_times">
+		</div>
+        
+		<nav id="menu">
+			<ul>
+                    <a href="principal.php#noticias"><li>Notícias</li></a>
+                    <a href="principal.php#tabela" ><li>Tabela</li></a>
+				<a href="principal.php"><img src="../Imagens/Logo_Site.png" id="logo_site"></a>
+                    <a href="principal.php#calendario" ><li>Calendário</li></a>
+                <a href="principal.php#contato" ><li>Contato</li></a>
+            </ul>
+		</nav>
+		
+		<div id="cadastro">
+			<fieldset>
+				<legend>Cadastre-se</legend>
+				<form action="valida.php" method="POST">
+					<input type="hidden" name="op" value="cadastro">
+					<input type="text" class = "campos" name="nome" id="nome" placeholder="Digite seu nome:"><br><br>
+					<input type="text" class = "campos" name="email" id="email" placeholder="Digite seu email:"><br><br>
+					<input type="text" class = "campos" name="login" id="login" placeholder="Digite seu login:"><br><br>
+					<input type="password" class = "campos" name="senha" id="senha" placeholder="Digite sua senha:"><br><br>
+					
+					<input type="button" class = "botao" value="Limpar Dados" onclick="limpa_tuto_chessuis()">
+					<input type="submit" class = "botao" value="Enviar">
+				</form>
+			</fieldset>
+			<fieldset id="login_form">
+			
+				<legend>Login</legend>
+				<form action="valida.php" method="POST">
+					<input type="hidden" name="op" value="login">
+					<input type="text" class = "campos" name="login" id="login_login" placeholder="Digite seu login:"><br><br>
+					<input type="password" class = "campos" name="senha" id="senha_login" placeholder="Digite sua senha:"><br><br>
+					
+					<input type="button" class = "botao" value="Limpar Dados" onclick="limpa_tuto_chessuis_login()">
+					<input type="submit" class = "botao" value="Enviar">
+				</form>
+			</fieldset>
+		</div>
+		
+		<div id="rodape">
+		<p id="direitos">Todos direitos reservados.
+		
+		<div id="instagram">
+		
+		    <a href="https://www.instagram.com/?hl=pt-br" target="parent"><img src="../Imagens/instagram.png" height="50px" width="50px"></a>
+			
+		</div>
+		<div id="facebook">
+		    <a href="https://pt-br.facebook.com/" target="parent"><img src="../Imagens/facebook.png" height="50px" width="50px"></a>
+			
+		</div>
+		<div id="youtube">
+		    <a href="https://www.youtube.com/?gl=BR&hl=pt" target="parent"><img src="../Imagens/youtube.jpg" height="50px" width="50px"></a>
+			
+		</div>
+		</div>
+		
+		<script type="text/javascript">
+		function limpa_tuto_chessuis(){
+			document.getElementById('nome').value = "";
+			document.getElementById('email').value = "";
+			document.getElementById('login').value = "";
+			document.getElementById('senha').value = "";
+		}
+		function limpa_tuto_chessuis_login(){
+			document.getElementById('login_login').value = "";
+			document.getElementById('senha_login').value = "";
+		}
+		
+		function fecha(){
+			var altura = document.getElementById('div_times').offsetHeight;
+			
+			if(altura == "400"){
+                
+				document.getElementById('div_times').style.height = "0";
+                document.getElementById('ligaAFC').style.height = "0";
+                document.getElementById('ligaNFC').style.height = "0";
+                
+                document.getElementById('AFC_Oeste').style.height = "0";
+                document.getElementById('NFC_Oeste').style.height = "0";
+                
+                document.getElementById('AFC_Leste').style.height = "0";
+                document.getElementById('NFC_Leste').style.height = "0";
+                
+                document.getElementById('AFC_Norte').style.height = "0";
+                document.getElementById('NFC_Norte').style.height = "0";
+                
+                document.getElementById('AFC_Sul').style.height = "0";
+                document.getElementById('NFC_Sul').style.height = "0";
+				
+				document.getElementById('logo_conf_afc').style.height = "0";
+				document.getElementById('logo_conf_nfc').style.height = "0";
+								
+                document.getElementById('NFC_Sul').style.border = "none";
+                document.getElementById('AFC_Sul').style.border = "none";
+                
+                document.getElementById('NFC_Norte').style.border = "none";
+                document.getElementById('AFC_Norte').style.border = "none";
+                
+                document.getElementById('NFC_Leste').style.border = "none";
+                document.getElementById('AFC_Leste').style.border = "none";
+                
+                document.getElementById('NFC_Oeste').style.border = "none";
+                document.getElementById('AFC_Oeste').style.border = "none";
+								
+				document.getElementById('rodape').style.position = "relative";
+                
+				document.getElementById('div_times').style.transition = "all 1.5s";
+                document.getElementById('ligaAFC').style.transition = "all 1.5s";
+                document.getElementById('ligaNFC').style.transition = "all 1.5s";
+								
+				document.getElementById('botao_times').value = "Ver Times ▼";
+                
+				var x = document.getElementsByTagName('img');
+				
+				for(var i = 0; i <= x.length; i++){
+                    
+					if(x[i].className == "Lugar" || x[i].className == "imagens_logos_quad" || x[i].className == "imagens_logos_ret" || x[i].className == "imagens_logos"){
+						x[i].style.height = "0";            
+					}
+				}		                
+				
+                								            
+			}else{
+				document.getElementById('div_times').style.height = "400";
+                document.getElementById('ligaAFC').style.height = "304.8";
+                document.getElementById('ligaNFC').style.height = "304.8";
+                
+                document.getElementById('AFC_Oeste').style.height = "50%";
+                document.getElementById('NFC_Oeste').style.height = "50%";
+                
+                document.getElementById('AFC_Leste').style.height = "50%";
+                document.getElementById('NFC_Leste').style.height = "50%";
+                
+                document.getElementById('AFC_Norte').style.height = "50%";
+                document.getElementById('NFC_Norte').style.height = "50%";
+                
+                document.getElementById('AFC_Sul').style.height = "50%";
+                document.getElementById('NFC_Sul').style.height = "50%";
+				
+				document.getElementById('logo_conf_afc').style.height = "74";
+				document.getElementById('logo_conf_nfc').style.height = "74"
+                
+                document.getElementById('NFC_Sul').style.border = "2px inset";
+                document.getElementById('AFC_Sul').style.border = "2px inset";
+                
+                document.getElementById('NFC_Norte').style.border = "2px outset";
+                document.getElementById('AFC_Norte').style.border = "2px outset";
+                
+                document.getElementById('NFC_Leste').style.border = "2px outset";
+                document.getElementById('AFC_Leste').style.border = "2px outset";
+                
+                document.getElementById('NFC_Oeste').style.border = "2px inset";
+                document.getElementById('AFC_Oeste').style.border = "2px inset";
+				
+				document.getElementById('rodape').style.position = "relative";
+                
+				document.getElementById('div_times').style.transition = "all 1.5s";
+                document.getElementById('ligaAFC').style.transition = "all 1.5s";
+                document.getElementById('ligaNFC').style.transition = "all 1.5s";
+                
+				document.getElementById('botao_times').value = "Ver Times ▲";
+				
+				var x = document.getElementsByTagName('img');
+				var y = document.getElementsByTagName('img');
+                var a = document.getElementsByTagName('img');
+				var c = document.getElementsByTagName('img');
+                
+				for(var i = 0; i <= x.length && i <= a.length && i <= c.length && i <= y.length; i++){
+                    
+					if(x[i].className == "Lugar" ){
+						x[i].style.height = "14";            
+					}
+                    
+                   if(y[i].className == "imagens_logos" ){
+						y[i].style.height = "80";            
+					}
+                    
+                    if(a[i].className == "imagens_logos_quad" ){
+						a[i].style.height = "60";            
+					}
+                    
+                    if(c[i].className == "imagens_logos_ret" ){
+						c[i].style.height = "60";            
+					}
+				}
+                                
+			}
+		}
+		</script>
+	</body>
+</html>

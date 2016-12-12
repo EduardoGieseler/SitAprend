@@ -1,0 +1,208 @@
+#cad_login{
+	width: 95%;
+	float:left;
+	background-color: RGB(67,170,67);
+	margin-top: 10px;
+	padding-left: 5%;
+		display: -ms-flex;
+		display: -webkit-flex;
+		display: flex;
+		
+		 /* centraliza na vertical */
+		-ms-align-items: center;
+		-webkit-align-items: center;
+		align-items: center;
+}
+#frase_cad{
+	width: 50%;
+	float:left;
+	color: white;
+}
+#go_tela_cad{
+	text-decoration: none;
+	color: white;
+	float: right;
+	margin-left: 40%;
+}
+.conteudo{
+	min-width: 100%;
+	height: 100%;
+	float: left;
+	margin-top: 5%;
+}
+#tabela{
+	width:100%;
+	height: 100%;
+	background-color: rgb(207, 209, 207);	
+}
+#titulo_tabela_nfc{
+	width: 45%;
+	background: blue;
+	height: 50px;
+	font-size: 20px;
+	color: white;
+	padding-left: 5%;
+	float: left;
+	
+	display: -ms-flex;
+		display: -webkit-flex;
+		display: flex;
+		
+		 /* centraliza na vertical */
+		-ms-align-items: center;
+		-webkit-align-items: center;
+		align-items: center;
+}
+#titulo_tabela_afc{
+	width: 45%;
+	background: red;
+	height: 50px;
+	font-size: 20px;
+	color: white;
+	padding-left: 5%;
+	float: left;
+	
+	display: -ms-flex;
+		display: -webkit-flex;
+		display: flex;
+		
+		 /* centraliza na vertical */
+		-ms-align-items: center;
+		-webkit-align-items: center;
+		align-items: center;
+}
+#calendario_tabela{
+    width: 100%;
+	float:left;
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+span{
+ color: gray;  
+ margin: 0 7px; 
+}
+strong{
+	margin: 0 7px;
+}
+
+table{
+	width: 50%;
+	float:left;
+	margin-top: 5%;
+}
+table, th, td, tr {
+    border: 1px solid RGB(63,124,54);
+    border-collapse: collapse;
+	text-align: center;
+}
+.noticia{
+	width: 100%;
+	height: 20%;
+	background-color: RGB(67,170,67);
+	border: 2px solid RGB(63,124,54);
+	box-sizing: border-box;
+	margin-top: 3%;
+}
+.imagem_noticia{
+	height: 100%;
+	width: 20%;
+	margin-left: 5%;
+	float: left;
+}
+.imagem_noticia img{
+	height: 100%;
+	width: 100%;
+}
+.texto_noticia{
+	width: 73%;
+	height: 100%;
+	float: left;
+	font-size: 20px;
+	padding-left: 2%;
+	color: white;
+	
+		display: -ms-flex;
+		display: -webkit-flex;
+		display: flex;
+		
+		 /* centraliza na vertical */
+		-ms-align-items: center;
+		-webkit-align-items: center;
+		align-items: center;
+}
+#titulo_noticia{
+	width: 100%;
+	height: 2%;
+	color: RGB(63,124,54);
+}
+#contato{
+	width:100%;
+	height: 100%;
+	background-color: rgb(207, 209, 207);	
+}
+.campos{
+	width: 42%;
+}
+fieldset{
+	text-align: center;
+}
+legend{
+	border: rgb(207, 209, 207);
+}
+#sec_contato{
+	height:50%;
+}
+#sec_calendario{
+	height: 60%;
+}
+#titulo_cal{
+	width: 100%;
+	height: 2%;
+	color: RGB(63,124,54);
+}
+#calendario{
+	width:100%;
+	height: 100%;
+	background-color: rgb(207, 209, 207);	
+}
+#seleciona_semana{
+	width: 100%;
+	height: 10%;
+	background-color: rgb(207, 209, 207);
+}
+#p_semana{
+	width: 20%;
+	float:left;
+	padding-left:30%;
+}
+#botoes_selec_semana{
+	width: 50%;
+	height: 100%;
+	float: right;
+	background-color: rgb(207, 209, 207);
+	
+		display: -ms-flex;
+		display: -webkit-flex;
+		display: flex;
+		
+		 /* centraliza na vertical */
+		-ms-align-items: center;
+		-webkit-align-items: center;
+		align-items: center;
+}
+#botao_semana{
+	margin-left: 5%;
+	border-radius: 10px;
+	background-color: RGB(67,170,67);
+}
+select{
+   border-radius: 10px;
+   -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+   -moz-appearance: none; /* Remove estilo padrão do FireFox */
+   appearance: none; /* Remove estilo padrão do FireFox*/
+   background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;  /* Imagem de fundo (Seta) */
+   background-position: 218px center;  /*Posição da imagem do background*/
+   height:30px; /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */
+   border:1px solid #ddd;   
+}

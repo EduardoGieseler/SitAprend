@@ -1,0 +1,308 @@
+@media screen and (max-width: 470px){
+	body{
+		width: 470px;
+		height: 100%;
+		background-color: rgb(222, 226, 223);
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 720px){
+	body{
+		width: 720px;
+		height: 100%;
+		background-color: rgb(222, 226, 223);
+		margin: 0 auto;
+	}
+}
+	html {
+		position: relative;
+		min-height: 100%;
+	}
+	body{
+		width: 1024px;
+		height: 100%;
+		background-color: rgb(222, 226, 223);
+		margin: 0 auto;
+		position: relative;
+	}
+    
+	#div_times{
+		width: 100%;
+		height: 400px;
+		background-color: RGB(222,226,223);
+	}
+
+	#logos_liga{
+		width: 100%;
+		height: 20%;
+		background-color: RGB(222,226,223);
+		float: left;
+	}
+
+	#logo_afc{
+		width: 50%;
+		height: 100%;
+		text-align: center;
+		background-color: RGB(222,226,223);
+		float: left;
+	}
+	#logo_nfc{
+		width: 50%;
+		height: 100%;
+		text-align: center;
+		background-color: RGB(222,226,223);
+		float: left;
+	}
+
+	#logo_conf_afc{
+		width: 100px;
+		height: 74px;
+	}
+	#logo_conf_nfc{
+		width: 100px;
+		height: 74px;
+	}
+	
+    #ligaAFC{
+		width: 50%;
+		height: calc(400px - 23.8%);
+		background-color: RGB(222,226,223);
+		float: left;
+	}	
+    #ligaNFC{
+		width: 50%;
+		height: calc(400px - 23.8%);
+		background-color: RGB(222,226,223);
+		float: left;
+	}
+
+	#AFC_Leste{
+		width:50%;
+		height:50%;
+		background-color: RGB(222,226,223);
+		-moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 2px outset;
+		float: left;
+		
+	}
+    #NFC_Leste{
+		width:50%;
+		height:50%;
+		background-color: RGB(222,226,223);
+		-moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 2px outset;
+		float: left;
+		
+	}
+
+    #AFC_Oeste{
+		width:50%;
+		height:50%;
+		background-color: RGB(222,226,223);
+		-moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 2px inset;
+		float: left;
+		
+	}
+    #NFC_Oeste{
+		width:50%;
+		height:50%;
+		background-color: RGB(222,226,223);
+		-moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 2px inset;
+		float: left;
+		
+	}
+
+    #AFC_Norte{
+		width:50%;
+		height:50%;
+		background-color: RGB(222,226,223);
+		-moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 2px outset;
+		float: left;
+		
+	}
+    #NFC_Norte{
+		width:50%;
+		height:50%;
+		background-color: RGB(222,226,223);
+		-moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 2px outset;
+		float: left;
+		
+	}
+
+    #AFC_Sul{
+		width:50%;
+		height:50%;
+		background-color: RGB(222,226,223);
+		-moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 2px inset;
+		float: left;
+		
+	}
+    #NFC_Sul{
+		width:50%;
+		height:50%;
+		background-color: RGB(222,226,223);
+		-moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 2px inset;
+		float: left;
+		
+	}
+
+	.nome_lugar_conf{
+		width: 100%;
+		height: 10%;
+		background-color: RGB(222,226,223);
+	}
+
+	.imagem_l{
+		width: 50%;
+		height: 50%;
+		background-color: RGB(222,226,223);
+		float: left;
+	}
+	.imagem_n{
+		width: 50%;
+		height: 50%;
+		background-color: RGB(222,226,223);
+		float: left;
+	}
+	.imagem_o{
+		width: 50%;
+		height: 50%;
+		background-color: RGB(222,226,223);
+		float: left;
+	}
+	.imagem_s{
+		width: 50%;
+		height: 50%;
+		background-color: RGB(222,226,223);
+		float: left;
+	}
+
+    .imagens_logos_ret{
+		width: 110px;
+		height: 60px;
+	}
+
+    .imagens_logos_quad{
+		width: 80px;
+		height: 60px;
+	}
+
+    .Lugar{
+		width: 80px;
+		height: 14px;
+        background-color: RGB(222,226,223);
+	}	
+
+	#botao{
+		width: 100%;
+		height: 22px;
+		text-align: center;
+		float: left;
+	}
+
+	#menu{
+		width: 100%;
+		height: 100px;
+		background-color: rgb(207, 209, 207);
+		float: left;
+		text-align: center;
+		border: 2px solid;
+		border-color: RGB(67,170,67);
+		box-sizing: border-box;
+	}
+    a{
+        text-decoration: none;
+    }
+	ul{
+        list-style-type: none;
+        
+		margin: 0 ;
+		text-align: center;
+		padding: 0;
+		height: inherit;
+		display: -ms-flex;
+        display: -webkit-flex;
+        display: flex;
+
+  /* centraliza na vertical */
+        -ms-align-items: center;
+        -webkit-align-items: center;
+        align-items: center;
+
+  /* centraliza na horizontal */
+        -ms-justify-content: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+	}
+
+	li{
+		list-style-type: none;
+		display: inline;
+		margin-left: 50px;
+		font-size: 18px;
+		color: RGB(67,170,67);
+	}
+	li:hover{
+		color: RGB(63,124,54);
+	}
+
+	#logo_site{
+		width: 100px;
+		height: 73px;
+		margin-left: 50px;
+	}
+	#rodape{
+		width: 100%;
+		height:100px;
+		background-color: RGB(63,124,54);
+		float: left;
+		color: white;
+		margin-top: 30px;
+		
+		display: -ms-flex;
+		display: -webkit-flex;
+		display: flex;
+		
+		 /* centraliza na vertical */
+		-ms-align-items: center;
+		-webkit-align-items: center;
+		align-items: center;
+	}
+	#direitos{
+		margin-left: 30px;
+	}
+	#youtube{
+		width: 50px;
+		height: 50px;
+		position: absolute;
+		right: 0px;
+		margin-right: 10px;
+	}
+	#facebook{
+		width: 50px;
+		height: 50px;
+		position: absolute;
+		right: 0px;
+		margin-right: 80px;
+	}	
+	#instagram{
+		width: 50px;
+		height: 50px;
+		position: absolute;
+		right: 0px;
+		margin-right: 150px;
+	}

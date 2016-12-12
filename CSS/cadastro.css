@@ -1,0 +1,24 @@
+fieldset{
+	width: 450px;
+	float: left;
+	height: 30%;
+	text-align: center;
+	background-color: rgb(207, 209, 207);
+	margin-top: 100px;
+	border-color: RGB(67,170,67);
+}
+#login_form{
+	margin-left: 50px;
+}
+.campos{
+	width: 80%;	
+	background-color: RGB(63,124,54);
+	color: white;
+}
+.botao{
+	border-radius: 10px;
+	background-color: RGB(67,170,67);
+}
+.botao:hover{
+	background-color: RGB(63,124,54);
+}

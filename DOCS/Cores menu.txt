@@ -1,0 +1,15 @@
+verde claro:
+
+RGB(67,170,67)
+
+Verde escuro:
+
+RGB(63,124,54)
+
+Cinza fundo:
+
+rgb(222, 226, 223)
+
+Cinza mais escuro (menu):
+
+rgb(207, 209, 207)
